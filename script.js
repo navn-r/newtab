@@ -87,8 +87,7 @@ document.getElementById("inner").append(
     const button = document.createElement("div");
     const icon = document.createElement("img");
 
-    // domain = ".../newtab"
-    icon.src = `newtab/img/${src}`;
+    icon.src = `/img/${src}`;
     icon.className = "icon";
 
     button.title = title;
