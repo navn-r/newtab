@@ -3,47 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Muli:400,700&amp;display=swap"
-      rel="stylesheet dns-prefetch preconnect"
-      crossorigin=""
-    />
-    <link
-      href="https://db.onlinewebfonts.com/c/0b28d43e90a11a93d935b305ff2cefb2?family=Font+Awesome+5+Pro"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script
-      src="https://kit.fontawesome.com/da4917d577.js"
-      crossorigin="anonymous"
-    ></script>
     <link href="style.css" rel="stylesheet" />
     <title>New Tab</title>
   </head>
   <body>
-    <div id="wrapper">
-      <div id="content">
-      </div>
+    <div id="container">
+      <div id="inner"></div>
     </div>
-    <script>
-        const icons = ["fab fa-youtube", "fas fa-tv", "fab fa-reddit-alien", "fab fa-facebook-messenger", "fab fa-amazon", "fas fa-paper-plane", "fas fa-university", "fas fa-chalkboard", "fab fa-github", "fab fa-instagram", "fab fa-google-drive", "fab fa-facebook-f"];
-        const links = ["youtube.com", "netflix.com", "reddit.com", "messenger.com", "amazon.ca", "mail.google.com","acorn.utoronto.ca", "q.utoronto.ca", "github.com", "instagram.com", "drive.google.com", "facebook.com"];
-        const content = document.getElementById('content');
-        let buttons = "";
-        for(let i = 0; i < links.length; i++) {
-          let link = document.createElement('a');
-            let button = document.createElement("div");
-            let icon= document.createElement("i");
-
-            button.className = "button"
-            button.title = links[i];
-            icon.className = icons[i];
-            link.href = `https://${links[i]}`;
-
-            button.appendChild(icon);
-            link.appendChild(button);
-            content.appendChild(link);
-        }
-    </script>
   </body>
+  <script src="script.js"></script>
 </html>

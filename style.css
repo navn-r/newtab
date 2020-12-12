@@ -5,13 +5,13 @@
 }
 
 :root {
-  --primary: #050708;
-  --secondary: #2d3c45;
-  --accent: #818A8F;
+  --primary: #0B1414;
+  --secondary: #545a5a;
+  --accent: #9DA1A1;
 }
 
 body {
-  font-family: "Muli";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--secondary);
   background-color: var(--primary);
 }
@@ -21,9 +21,11 @@ a {
   text-decoration: none;
   cursor: auto;
   outline: 0;
+  width: 10rem;
+  height: 10rem;
 }
 
-#wrapper {
+#container {
   position: absolute;
   top: 0;
   right: 0;
@@ -36,46 +38,46 @@ a {
   align-items: center;
 }
 
-#content {
+#inner {
   display: grid;
-  gap: 2vw;
   grid-template-columns: repeat(4, 1fr);
-  border-radius: 5rem;
-  box-shadow: inset 1rem 1rem 1.5rem #040506, inset -1rem -1rem 1.5rem #06090a;
-  width: 60%;
-  height: 70%;
-  padding: 4rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  filter: invert(50%);
+}
+
+.title {
+  color: var(--accent);
+  margin-top: 1rem;
 }
 
 .button {
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: 90%;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
-  border-radius: 2.5rem;
-  background: linear-gradient(145deg, #050607, #050709);
-  box-shadow: 0.5rem 0.5rem 1rem #040607, -0.5rem -0.5rem 1rem #060809;
+  width: 10rem;
+  height: 10rem;
 }
 
-.button:hover {
-    color: var(--accent);
-}
-
-
-
-@media (max-width: 1250px) {
-  #content {
-    width: 90%;
+@media(max-width: 700px) {
+  #inner {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 620px) {
-  #content {
-    width: 95%;
-    height: 90%;
+
+@media(max-width: 500px) {
+  #inner {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 350px) {
+  #inner {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
