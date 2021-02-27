@@ -74,10 +74,10 @@ const bookmarks = [
     href: "https://drive.google.com",
   },
   {
-    title: "Facebook",
-    src: "facebook-f-brands.svg",
-    filter: "invert(34%) sepia(6%) saturate(5493%) hue-rotate(183deg) brightness(96%) contrast(92%)",
-    href: "https://facebook.com",
+    title: "Outlook",
+    src: "outlook.svg",
+    filter: "brightness(0) saturate(100%) invert(27%) sepia(82%) saturate(2999%) hue-rotate(191deg) brightness(95%) contrast(101%)",
+    href: "https://outlook.office365.com/mail/",
   },
 ];
 
