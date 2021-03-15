@@ -77,7 +77,7 @@ const bookmarks = [
     title: "Outlook",
     src: "outlook.svg",
     filter: "brightness(0) saturate(100%) invert(27%) sepia(82%) saturate(2999%) hue-rotate(191deg) brightness(95%) contrast(101%)",
-    href: "https://outlook.office365.com/",
+    href: "https://outlook.office.com/",
   },
 ];
 
