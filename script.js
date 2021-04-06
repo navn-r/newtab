@@ -62,10 +62,10 @@ const bookmarks = [
     href: "https://github.com",
   },
   {
-    title: "Instagram",
-    src: "instagram-brands.svg",
-    filter: "invert(37%) sepia(94%) saturate(3695%) hue-rotate(320deg) brightness(90%) contrast(96%)",
-    href: "https://instagram.com",
+    title: "OneDrive",
+    src: "onedrive.svg",
+    filter: "brightness(0) saturate(100%) invert(27%) sepia(82%) saturate(2999%) hue-rotate(191deg) brightness(95%) contrast(101%)",
+    href: "https://utoronto-my.sharepoint.com/personal/navinn_ravindaran_mail_utoronto_ca/_layouts/15/onedrive.aspx",
   },
   {
     title: "Google Drive",
