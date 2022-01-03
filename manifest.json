@@ -11,7 +11,7 @@
   "chrome_url_overrides": { "newtab": "index.html" },
   "browser_specific_settings": {
     "gecko": {
-      "id": "newtab@navn.me",
+      "id": "{d8f568f0-d19c-4615-a584-6ac08fb41018}",
       "strict_min_version": "42.0"
     }
   }
