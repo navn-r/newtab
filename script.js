@@ -87,7 +87,7 @@ document.getElementById("inner").append(
     const button = document.createElement("div");
     const icon = document.createElement("img");
 
-    icon.src = `https://raw.githubusercontent.com/navn-r/newtab/main/img/${src}`;
+    icon.src = `img/${src}`;
     icon.className = "icon";
 
     button.title = title;
