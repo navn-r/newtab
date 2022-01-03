@@ -8,5 +8,11 @@
     "url": "https://github.com/navn-r/newtab"
   },
   "permissions": ["webNavigation", "browserSettings"],
-  "chrome_url_overrides": { "newtab": "index.html" }
+  "chrome_url_overrides": { "newtab": "index.html" },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "newtab@navn.me",
+      "strict_min_version": "42.0"
+    }
+  }
 }
